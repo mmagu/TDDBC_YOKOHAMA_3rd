@@ -6,7 +6,8 @@ group :development do
   gem 'guard-rspec'
 
   # Runs on Mac OS X
-  gem 'growl'
+  #gem 'growl'
+  gem 'terminal-notifier-guard'
   # Runs on Linux, FreeBSD, OpenBSD and Solaris
   gem 'libnotify'
   # Runs on Windows
